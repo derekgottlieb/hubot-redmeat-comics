@@ -1,0 +1,30 @@
+{
+  "name": "hubot-redmeat-comics",
+  "version": "0.0.1",
+  "description": "A Hubot script for retrieving Red Meat comics (http://www.redmeat.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derekgottlieb/hubot-redmeat-comics.git"
+  },
+  "keywords": [
+    "hubot",
+    "redmeat",
+    "comics"
+  ],
+  "author": "Derek Gottlieb <derek.gottlieb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekgottlieb/hubot-redmeat-comics/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "htmlparser": "1.7.6",
+    "soupselect": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  }
+}
