@@ -18,26 +18,6 @@
 htmlparser = require "htmlparser"
 Select     = require("soupselect").select
 
-# Description:
-#   Get the latest Red Meat comics
-#
-# Dependencies:
-#   "htmlparser": "1.7.6"
-#   "soupselect": "0.2.0"
-#
-# Configuration:
-#   None
-#
-# Commands:
-#   hubot red meat - The latest Red Meat comic
-#   hubot redmeat - The latest Red Meat comic
-#
-# Author:
-#   derekgottlieb
-
-htmlparser = require "htmlparser"
-Select     = require("soupselect").select
-
 module.exports = (robot) ->
   getComic = (msg, url) ->
     msg.http(url)
